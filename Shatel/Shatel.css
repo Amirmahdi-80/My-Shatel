@@ -1,0 +1,439 @@
+@font-face {
+    font-family: 'BYekan';
+    src: url('Fonts/Yekan.woff') format('woff'),
+    url('Fonts/Yekan.svg') format('svg');
+}
+body{
+    margin: 0px;
+}
+.Footer{
+    font-family: 'BYekan';
+    width: 100%;
+    height: 350px;
+    background-color: #2d2d2d;
+    color:#ccc;
+    direction: rtl;
+}
+.No1,.No2,.No3{
+    list-style-type: none;
+}
+.No2{
+    width: 250px;
+}
+.No2 ul{
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-right: 5px;
+    padding-right: 0px;
+    gap: 5px;
+}
+.No2 ul li{
+    padding-right: 12px;
+    border-radius: 5px;
+    height: 35px;
+}
+.No2 ul li:hover{
+    transition: 0.5s;
+    background-color:#202020 ;
+}
+.No8{
+    display: inline-block;
+    margin: 0px;
+    color: #787878;
+}
+.No6{
+    height: 30px;
+    list-style-type: none;
+    text-align: right;
+    font-size: 16px;
+    border-bottom: 1px solid #414141;
+}
+#No1{
+    margin-right: 25px;
+    font-size: 25px;
+    display: inline-block;
+    color: #82ce56;
+}
+#No2{
+    margin-right: 47px;
+    font-size: 25px;
+    display: inline-block;
+    color: #56b2ce;
+}
+.No4{
+    padding-right: 0px;
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.No5{
+    height: 3px;
+    background-image: repeating-linear-gradient(270deg,#9079e1 0,#2cd6aa 25%,#28aff8 50%,#9079e1);
+}
+.No7{
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 450px;
+}
+.No7 ul{
+    padding-right: 5px;
+}
+.No7 ul li{
+    list-style-type: square;
+    border-radius: 5px;
+    padding-right: 12px;
+    width: 200px;
+    height: 30px;
+    padding-right: 0px;
+}
+.No7 ul li:hover{
+    background-color: #202020;
+    transition: 0.5s;
+    transform: translate(-10px);
+}
+.No3{
+    width: 350px;
+}
+input{
+    text-align: right;
+    height: 35px;
+    border: none;
+    padding: 0px 10px;
+    width: 240px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.Button{
+    font-size: 13px;
+    text-align: center;
+    position: absolute;
+    text-decoration: none;
+    width: 90px;
+    height: 35px;
+    display: inline-block;
+    border: none;
+    background-color: #56c45f;
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.Button:hover{
+    background-color: #4da554
+}
+.No9{
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+    height: 35px;
+    padding: 0px;
+    background-color: white;
+    border-radius: 5px;
+}
+img{
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-right: 240px;
+    direction: ltr;
+    width: 110px;
+    height: 110px;
+}
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+.No10{
+    color: #ccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+.No11{
+    padding-top: 15px;
+    border-top: 1px solid #414141;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 82%;
+}
+.No12{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 13px;
+}
+.No13{
+    font-family: 'BYekan';
+    font-size: 15px;
+    color: #555;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 0px 5px 1px rgb(160, 160, 160);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+.No15{
+    color: #555;
+    padding-left: 10px;
+    border-left: 1px solid gainsboro;
+}
+.No14{
+    margin-left: 200px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.No16{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'BYekan';
+    font-size: 14px;
+    background-color: #448aff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 35px;
+}
+.No15:hover{
+    color: #2d2d2d;
+}
+.No16:hover{
+    transition: 1s;
+    background-color: #005eff
+}
+.No17{
+    margin-right: 200px;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+.No18{
+    width: 100%;
+    height: 80vh;
+    background-color: #eee;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 35px;
+}
+.No19{
+    box-shadow: 0px 0px 5px 1px gainsboro;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 720px;
+    height: 405px;
+    border-radius: 5px;
+}
+.No20{
+    font-family: 'BYekan';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 325px;
+    height: 500px;
+    box-shadow: 0px 0px 5px 1px gainsboro;
+    background-color: white;
+    gap: 20px;
+}
+.No21{
+    border-radius: 5px;
+    width:95%;
+    height:95%;
+    animation-name: Amir;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#No8{
+    margin: 0;
+    font-weight: bold;
+    font-size: 15px;
+    color: #555;
+}
+#No7{
+    margin: 0;
+}
+#No3{
+    width: 70%;
+    height: 40px;
+    margin: 0;
+}
+#No4{
+    border-radius: 5px;
+    width: 70px;
+    height: 55px;
+    border: none;
+    background-color: #41ce4d;
+    color: white;
+    font-family: 'BYekan';
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+#No4:hover{
+    transition: 1s;
+    background-color: #3bbb46;
+}
+#No5{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#No5 a p:hover{
+    border-bottom: 1px solid #448aff;
+}
+.No22{
+    color: #eee;
+    font-family: 'BYekan';
+    text-align: right;
+    width: 80%;
+    height: 35px;
+    border: 1px solid #e0e0e0;
+}
+.No22:hover{
+    border: 1px solid #448aff;
+    box-shadow: 0px 0px 5px 0px #80afff;
+}
+.No23{
+    color:#448aff;
+    margin: 0;
+    font-size: 12px;
+}
+#No6{
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    gap: 10px;
+}
+@keyframes Amir {
+    0%{
+        background-image: url(images/jazb.png);
+    }
+    25%{
+        background-image: url(images/Takhfif.png);
+    }
+    50%{
+        background-image: url(images/shatel-mobile.jpg);
+    }
+    75%{
+        background-image: url(images/jashnvareh-aban-FA.webp);
+    }
+}
+@media only screen and (max-width:1024px){
+    .No4,.No1,.No2,.No3,.No12,.No11,.No7{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .No14{
+        gap: 0px;
+        direction: ltr;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .No15{
+        border: none;
+        padding: 0px;
+    }
+    .No16{
+        width: 120%;
+    }
+    .No17{
+        margin: 0px;
+    }
+    .No18{
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .No19{
+        box-sizing: border-box;
+        height: 40vh;
+        width: 90%;
+    }
+    .No20{
+        width: 90%;
+    }
+    .No13{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+    }
+    .No7{
+        text-align: center;
+    }
+    img{
+        margin: 15px 0px;
+    }
+    .No7 ul li{
+        list-style-type: none;
+    }
+    .No6{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .No2 ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .No1,.No2,.No3{
+        width: 80%;
+    }
+    .No9 input{
+        width: 80%;
+        padding-left: 0px;
+    }
+    .No9 a{
+        width: 18.5%;
+    }
+    #No1,#No2{
+        margin: 0px;
+        opacity: 0;
+    }
+    .No11{
+        gap:10px
+    }
+    .No12{
+        gap: 0px;
+    }
+    .Footer{
+        height: 950px;
+    }
+}
