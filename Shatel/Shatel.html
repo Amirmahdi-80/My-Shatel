@@ -25,9 +25,9 @@
     </div>
     <div class="No20">
         <img src="images/login-icon.svg" alt="Login" id="No7">
-        <p id="No8" onclick=()>ورود به صفحه کاربری</p>
-        <input type="text" class="No22" placeholder="شناسه کاربری و یا کد اشتراک">
-        <input type="text" class="No22" placeholder="رمز عبور">
+        <p id="No8">ورود به صفحه کاربری</p>
+        <input type="text" class="No22" placeholder="شناسه کاربری و یا کد اشتراک" id="User">
+        <input type="text" class="No22" placeholder="رمز عبور" id="Password">
         <input type="text" class="No22" placeholder="حروف تصویر">
         <img src="Images/Bot.jpeg" alt="برای تغییر عکس کلیک نمایید" id="No3">
         <div id="No6">
@@ -35,7 +35,7 @@
                 <a href="https://my.shatel.ir/Account/Recover"><p class="No23">شناسه و رمز عبورم را فراموش کرده ام</p></a>
                 <a href="https://www.shatel.ir/technical-support/knowledge-base/%d8%b1%d8%a7%d9%87%d9%86%d9%85%d8%a7%db%8c-%d8%af%d8%b1%db%8c%d8%a7%d9%81%d8%aa-%d8%b1%d9%85%d8%b2-%d8%b9%d8%a8%d9%88%d8%b1-%d9%88-%da%a9%d8%af-%d8%a7%d8%b4%d8%aa%d8%b1%d8%a7%da%a9-%d8%a7%d8%b2-%d8%b3/"><p class="No23">(راهنمای بازیابی کلمه عبور)</p></a>
             </div>
-            <a href="http://www.shatel.ir/"><div id="No4">ورود</div></a>
+            <a href="http://www.shatel.ir/"><div id="No4" onclick=(fun1)>ورود</div></a>
         </div>
     </div>
 </div>
@@ -84,4 +84,19 @@
     </div>
 </div>
 </body>
+ <script>
+     function fun1(){
+     var No1=document.getElementById("User").value;
+     var No2=String(document.getElementById("Password").value);
+     if(No1==""{})
+     alert("نام کاربری نمیتواند خالی باشد");
+     }
+     else if(No2.length<6){
+     alert("رمز عبور نمیتواند خالی باشد")
+     }
+     else{
+     alert("ورود با موفقیت انجام شد")
+     let Login='https://my.shatel.ir/'
+     }
+ </script>
 </html>
